@@ -1,0 +1,20 @@
+{
+    "description": "a school capstone project",
+    "domain": "is-cool.dev",
+    "subdomain": "dexterlab",
+
+    "owner": {
+        "repo": "https://github.com/Henry-XiaoH/8601-hxiao0005",
+        "email": "xiao3425@gmail.com"
+    },
+
+    "record": {
+        "TXT": ["example_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+    },
+
+    "proxied": false
+}
